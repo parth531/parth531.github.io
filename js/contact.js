@@ -10,5 +10,8 @@ window.onload = function() {
             }, function(error) {
                 console.log('FAILED...', error);
             });
+            //Clears Values after submission and lets user know message is sent
+            window.alert("Your Message has be Sent."); 
+            document.getElementById("contact-form").reset();
     });
 }

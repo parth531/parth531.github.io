@@ -1,4 +1,5 @@
 .button1 {
+    /*button style 1*/
     background-color: orange;
     display: inline-flex;
     color: black;
@@ -10,10 +11,12 @@
     text-decoration: none;
 }
 .button1:hover {
+    /*button hover style 1*/
     background-color: red;
     color: black;
   }
 .button2 {
+    /*button style 2*/
     background-color: yellowgreen;
     display: inline-flex;
     color: black;
@@ -25,15 +28,18 @@
     text-decoration: none;
 }
 .button2:hover {
+    /*button hover style 2*/
     background-color: red;
     color: black;
   }
 .center {
+    /*Centers Text*/
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 25%;
 }
+/*body, header1, and paragraph background color*/
 body {background-color: powderblue;}
 h1 {background-color: yellowgreen;}
 p {background-color: orange;}
