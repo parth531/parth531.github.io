@@ -43,3 +43,14 @@
 body {background-color: powderblue;}
 h1 {background-color: yellowgreen;}
 p {background-color: orange;}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}
+.footer-logo{
+  width: 3vw;
+  height: 3vw;
+  padding: 1.5vw;
+}
